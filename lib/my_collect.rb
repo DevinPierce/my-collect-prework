@@ -1,5 +1,5 @@
 def my_collect(arr)
-  new_arr
+  new_arr = []
   i = 0 
   while (i < arr.length) do
     new_arr << yield(arr[i])
